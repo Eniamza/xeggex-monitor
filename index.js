@@ -3,7 +3,7 @@
 let sendMsg = function sendMessage(message,logourl){
 
 
-    ax.post("https://discord.com/api/webhooks/1211025063550124062/-aNS2kPIa2eEn2MywfUtDZBRn85X1_zwP_Iv40ROKgUFz1r5VSrOuX3ppPXhypk8bHki", {
+    ax.post("https://discord.com/api/webhooks/1211067046557646918/DeL5-hT3u9I0NQrGip6_Q9wEObxNJ9Gpsk5EH1pvJ8CrIXWFk3CKrWS1IKAsH_yrQcNG", {
         content: message,
         avatar_url: logourl
 
@@ -88,4 +88,4 @@ let fetchAsset = async () => {
 }
 
 // Fetch asset every 5 seconds (or any interval you prefer)
-setInterval(fetchAsset, 5000);
+setInterval(fetchAsset, 60000);
