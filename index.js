@@ -88,4 +88,4 @@ let fetchAsset = async () => {
 }
 
 // Fetch asset every 5 seconds (or any interval you prefer)
-setInterval(fetchAsset, 6000);
+setInterval(fetchAsset, 60000);
